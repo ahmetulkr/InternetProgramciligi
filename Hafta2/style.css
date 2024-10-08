@@ -1,0 +1,54 @@
+h1{
+    color:red;
+    background-color: blue;
+}
+
+div{
+    border:1px solid blue;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left:40px ;
+    margin-right: 40px;
+    color: salmon;
+    background-color: blue;
+    padding: 200p;
+
+}
+body {
+
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+td:hover{
+    background-color: gray;
+}
+.tableborder {
+   
+    border-collapse: collapse; 
+    border: 1px solid white; /
+}
+
+.tableborder th, td  {
+    border: 1px solid white; 
+    padding: 8px; 
+    text-align: left;
+}
+.tableborder th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+.tableborder td {
+    background-color: white;
+    color: #333;
+}
+.tr :only-child(odd){
+    background-color: #4CAF50;
+}
+input[type=text] ,input[type=password]{
+    width: 100%;
+    height: 20px;
+}
